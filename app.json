@@ -1,0 +1,15 @@
+{
+  "pages":[
+    "pages/bankList/bankList",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/addBankCard/addBankCard"
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  }
+}

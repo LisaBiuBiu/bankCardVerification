@@ -1,0 +1,27 @@
+<!--pages/my/addBankCard/addBankCard.wxml-->
+<view id="addBankCard">
+    <view class='enroll-item'>
+        <view class='item-title'>姓名：</view>
+        <input class='item-content' type='text' placeholder='请输入持卡人姓名' bindinput='getUserIdCardName' placeholder-class="placeholder"></input>
+    </view>
+    <view class='enroll-item' style="margin-top: 2rpx;">
+        <view class='item-title'>银行卡号：</view>
+        <input class='item-content' type='number' placeholder='请输入银行卡号' bindblur='getUserIdCardNumber' placeholder-class="placeholder"></input>
+    </view>
+    <view class='enroll-item' style="margin-top: 2rpx;">
+            <view class='item-title'>开户银行：</view>
+            <!-- <image src="{{bankUrl}}" class='item-content'></image> -->
+             <input class='item-content' type='text' placeholder='请输入开户银行' bindinput='getUserIdCardBankType' maxlength='19' value="{{cardType}}" placeholder-class="placeholder"></input> 
+        </view>
+    <view class='enroll-item' style="margin-top: 2rpx;">
+        <view class='item-title'>预留手机：</view>
+        <input class='item-content' type='number' placeholder='请输入开户预留手机号' maxlength='11' bindinput='getUserIdCardPhoneNumber'  placeholder-class="placeholder"></input>
+    </view>
+
+    <view class='enroll-item' style="margin-top: 2rpx;">
+        <view class='item-title'>验证码：</view>
+        <input class='item-content' type='number' bindinput='getAuthCode'></input>
+        <view class="getCode">获取验证码</view>
+    </view>
+    <view class='sign-up' bindtap='submitInfos'>保存</view>
+</view>

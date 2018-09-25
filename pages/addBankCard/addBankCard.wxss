@@ -1,0 +1,69 @@
+/* pages/my/addBankCard/addBankCard.wxss */
+page {
+  background-color: #eaeaea;
+}
+.container {
+  padding: 0rpx;
+}
+
+.enroll-item {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  width: 100%;
+  height: 96rpx;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+.placeholder{
+    color: #BDBDBD;
+}
+.item-title {
+  font-size: 28rpx;
+  color: #101010;
+  white-space: nowrap;
+  margin-left: 36rpx;
+  width: 25%;
+}
+.item-content {
+  font-size: 28rpx;
+  color: #8a8a8a;
+  flex: 1;
+  text-align: left;
+  padding-right: 24rpx;
+  height:96rpx;
+}
+.withdraw-note {
+  font-size: 30rpx;
+  margin-left: 20rpx;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+}
+.bank-reminder {
+  font-size: 28rpx;
+  margin-left: 20rpx;
+  color: #8a8a8a;
+  margin-top: 10rpx;
+  margin-bottom: 10rpx;
+}
+.getCode{
+    font-size: 28rpx;
+    color: #101010;
+    padding-right:62rpx;
+    padding-left:42rpx;
+    border-left:1px solid #DFDFDF;
+    height:60rpx;
+    line-height:60rpx;
+}
+.sign-up {
+  font-size: 30rpx;
+  height: 78rpx;
+  display: flex;
+  margin-top: 24rpx;
+  justify-content: center;
+  align-items: center;
+  background-color: #EC6272;
+  margin:  36rpx;
+  color: white;
+  border-radius: 40rpx;
+}

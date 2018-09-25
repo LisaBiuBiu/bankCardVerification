@@ -1,0 +1,21 @@
+<!--pages/my/bankList/bankList.wxml-->
+<view id="bankList">
+    <scroll-view class="scroll-view_H" scroll-x="true" style="width: 100%">
+        <view class=" scroll-view-item">
+             <view class="content">
+                <image src="../../../images/payment_zfb.png" class='bankImg'></image>
+                <view class="bankInfo">
+                    <view class="bankName">建设银行</view>
+                    <view>
+                        <text class="bankType bank">储蓄卡</text>
+                        <text class="bankCode bank">6222************2289</text    >
+                    </view>
+                </view>
+            </view> 
+         </view>
+        <view class="deleted" bindtap='deleted'> 删除</view>
+    </scroll-view>
+    <navigator  class="addBank" url="/pages/addBankCard/addBankCard" hover-class="none">
+        添加銀行卡
+    </navigator >
+</view>
